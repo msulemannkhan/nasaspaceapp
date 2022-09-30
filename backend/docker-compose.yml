@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  nasa_app_backend_server:
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    command: ["bash", "-c", "sh start_gunicorn.sh"]
+    # environment: # Overwrite the .env file
+    #   DATA_DIR: /datastore  
+    volumes:
+      - /${DATA_DIR}:/datastore
+    ports:
+      - ${NASA_APP_PORT}:8000  # Expose the nodles backend
+    networks:
+      - nasa_app_backend_network
+
+networks:
+  nasa_app_backend_network:
+      driver: bridge
