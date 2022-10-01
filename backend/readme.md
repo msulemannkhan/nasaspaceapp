@@ -18,3 +18,9 @@
 3. Run Docker
     
     `docker-compose --env-file=./.env up -d`
+
+    `sudo docker stop $(sudo docker ps -a -q)`
+
+    `sudo docker rm $(sudo docker ps -a -q)`
+
+    `sudo docker rmi $(sudo docker images -a -q)`

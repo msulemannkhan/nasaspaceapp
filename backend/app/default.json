@@ -1,0 +1,412 @@
+{
+    "results": [
+        {
+            "subjectCategories": [
+                "SPACE SCIENCES"
+            ],
+            "keywords": [
+                "MARS /PLANET/",
+                "THERMOPHYSICAL PROPERTY",
+                "BIBLIOGRAPHY"
+            ],
+            "distributionDate": "2019-06-14T00:00:00.0000000+00:00",
+            "title": "Mars Thermophysics",
+            "stiType": "TECHNICAL_MEMORANDUM",
+            "distribution": "PUBLIC",
+            "submittedDate": "2013-09-02T11:40:00.0000000+00:00",
+            "authorAffiliations": [
+                {
+                    "sequence": 0,
+                    "submissionId": 19670030539,
+                    "meta": {
+                        "author": {
+                            "name": "Maye, B."
+                        },
+                        "organization": {
+                            "name": "NASA Marshall Space Flight Center",
+                            "location": "Huntsville, AL, United States"
+                        }
+                    },
+                    "id": "830d52a445a74c8e98e42fd16610118f"
+                },
+                {
+                    "sequence": 1,
+                    "submissionId": 19670030539,
+                    "meta": {
+                        "author": {
+                            "name": "Mc Hugh, N."
+                        },
+                        "organization": {
+                            "name": "NASA Marshall Space Flight Center",
+                            "location": "Huntsville, AL, United States"
+                        }
+                    },
+                    "id": "add10c75edce4112b2c65b7c05a4e721"
+                },
+                {
+                    "sequence": 2,
+                    "submissionId": 19670030539,
+                    "meta": {
+                        "author": {
+                            "name": "Mc Nutt, W. P."
+                        },
+                        "organization": {
+                            "name": "NASA Marshall Space Flight Center",
+                            "location": "Huntsville, AL, United States"
+                        }
+                    },
+                    "id": "631488a0981f411db3de180dec8dc1b7"
+                }
+            ],
+            "stiTypeDetails": "Technical Memorandum (TM)",
+            "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+            "modified": "2014-06-05T00:00:00.0000000+00:00",
+            "id": 19670030539,
+            "created": "2013-09-02T11:40:00.0000000+00:00",
+            "center": {
+                "code": "CDMS",
+                "name": "Legacy CDMS",
+                "id": "092d6e0881874968859b972d39a888dc"
+            },
+            "onlyAbstract": false,
+            "sensitiveInformation": 2,
+            "abstract": "Bibliography on thermophysical experiments and analyses for Mars",
+            "isLessonsLearned": false,
+            "disseminated": "DOCUMENT_AND_METADATA",
+            "publications": [
+                {
+                    "submissionId": 19670030539,
+                    "id": "1d7fd57be0574f17938eed97dc8a89d5",
+                    "publicationDate": "1967-09-28T00:00:00.0000000+00:00"
+                }
+            ],
+            "status": "CURATED",
+            "related": [],
+            "downloads": [
+                {
+                    "draft": false,
+                    "mimetype": "application/pdf",
+                    "name": "19670030539.pdf",
+                    "type": "STI",
+                    "links": {
+                        "original": "/api/citations/19670030539/downloads/19670030539.pdf",
+                        "pdf": "/api/citations/19670030539/downloads/19670030539.pdf",
+                        "fulltext": "/api/citations/19670030539/downloads/19670030539.txt"
+                    }
+                }
+            ],
+            "downloadsAvailable": true,
+            "index": "submissions-2022-09-30-06-07",
+            "summary": "The winning numbers in Saturday evening's drawing of the California Lottery's \"Fantasy 5\" game were:"
+        },
+        {
+            "subjectCategories": [
+                "SPACE VEHICLES"
+            ],
+            "keywords": [
+                "MANNED SPACECRAFT",
+                "ATMOSPHERIC ENTRY",
+                "MARS SPACECRAFT"
+            ],
+            "distributionDate": "2019-05-28T00:00:00.0000000+00:00",
+            "title": "An Initial Concept of a Manned Mars Excursion Vehicle for a Tenuous Mars Atmosphere",
+            "stiType": "TECHNICAL_MEMORANDUM",
+            "distribution": "PUBLIC",
+            "submittedDate": "2013-09-02T11:25:00.0000000+00:00",
+            "authorAffiliations": [
+                {
+                    "sequence": 0,
+                    "submissionId": 19660021498,
+                    "meta": {
+                        "author": {
+                            "name": "Woodcock, G. R."
+                        },
+                        "organization": {
+                            "name": "NASA Marshall Space Flight Center",
+                            "location": "Huntsville, AL, United States"
+                        }
+                    },
+                    "id": "4cc1a3fed5814543996f57d9474fbd9e"
+                }
+            ],
+            "stiTypeDetails": "Technical Memorandum (TM)",
+            "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+            "modified": "2014-04-17T00:00:00.0000000+00:00",
+            "id": 19660021498,
+            "created": "2013-09-02T11:25:00.0000000+00:00",
+            "center": {
+                "code": "CDMS",
+                "name": "Legacy CDMS",
+                "id": "092d6e0881874968859b972d39a888dc"
+            },
+            "onlyAbstract": false,
+            "sensitiveInformation": 2,
+            "abstract": "Manned Mars excursion vehicle for thin Mars atmosphere",
+            "isLessonsLearned": false,
+            "disseminated": "DOCUMENT_AND_METADATA",
+            "publications": [
+                {
+                    "submissionId": 19660021498,
+                    "id": "b1b4ec4ec0284aefb8ca352a16dec958",
+                    "publicationDate": "1966-06-07T00:00:00.0000000+00:00"
+                }
+            ],
+            "status": "CURATED",
+            "related": [],
+            "downloads": [
+                {
+                    "draft": false,
+                    "mimetype": "application/pdf",
+                    "name": "19660021498.pdf",
+                    "type": "STI",
+                    "links": {
+                        "original": "/api/citations/19660021498/downloads/19660021498.pdf",
+                        "pdf": "/api/citations/19660021498/downloads/19660021498.pdf",
+                        "fulltext": "/api/citations/19660021498/downloads/19660021498.txt"
+                    }
+                }
+            ],
+            "downloadsAvailable": true,
+            "index": "submissions-2022-09-30-06-07",
+            "summary": "The following is a daily guide to the key stories, newspaper headlines and quotes from the news."
+        },
+        {
+            "subjectCategories": [
+                "SPACE SCIENCES"
+            ],
+            "keywords": [
+                "BIBLIOGRAPHY",
+                "MARS SURFACE"
+            ],
+            "distributionDate": "2019-06-14T00:00:00.0000000+00:00",
+            "title": "Mars surface formation, surface materials, and terrain",
+            "stiType": "TECHNICAL_MEMORANDUM",
+            "distribution": "PUBLIC",
+            "submittedDate": "2013-09-02T11:31:00.0000000+00:00",
+            "authorAffiliations": [
+                {
+                    "sequence": 0,
+                    "submissionId": 19670003694,
+                    "meta": {
+                        "author": {
+                            "name": "Hoop, H. H."
+                        },
+                        "organization": {
+                            "name": "NASA Marshall Space Flight Center",
+                            "location": "Huntsville, AL, United States"
+                        }
+                    },
+                    "id": "f86ae055afb24d25a053ab18591ee7dd"
+                }
+            ],
+            "stiTypeDetails": "Technical Memorandum (TM)",
+            "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+            "modified": "2013-08-29T00:00:00.0000000+00:00",
+            "id": 19670003694,
+            "created": "2013-09-02T11:31:00.0000000+00:00",
+            "center": {
+                "code": "CDMS",
+                "name": "Legacy CDMS",
+                "id": "092d6e0881874968859b972d39a888dc"
+            },
+            "onlyAbstract": false,
+            "sensitiveInformation": 2,
+            "abstract": "Selected literature summary and annotated bibliography on Mars surface formation, material, and terrain",
+            "isLessonsLearned": false,
+            "disseminated": "DOCUMENT_AND_METADATA",
+            "publications": [
+                {
+                    "submissionId": 19670003694,
+                    "id": "c8066096cd4b46c88e7e17ecf62942b4",
+                    "publicationDate": "1966-09-30T00:00:00.0000000+00:00"
+                }
+            ],
+            "status": "CURATED",
+            "related": [],
+            "downloads": [
+                {
+                    "draft": false,
+                    "mimetype": "application/pdf",
+                    "name": "19670003694.pdf",
+                    "type": "STI",
+                    "links": {
+                        "original": "/api/citations/19670003694/downloads/19670003694.pdf",
+                        "pdf": "/api/citations/19670003694/downloads/19670003694.pdf",
+                        "fulltext": "/api/citations/19670003694/downloads/19670003694.txt"
+                    }
+                }
+            ],
+            "downloadsAvailable": true,
+            "index": "submissions-2022-09-30-06-07",
+            "summary": "The BBC News website has compiled a list of the top 10 most read stories of the past 24 hours."
+        },
+        {
+            "subjectCategories": [
+                "SPACE SCIENCES"
+            ],
+            "keywords": [
+                "MARS /PLANET/",
+                "MARS SURFACE",
+                "SPACE SCIENCE"
+            ],
+            "distributionDate": "2019-06-14T00:00:00.0000000+00:00",
+            "fundingNumbers": [
+                {
+                    "number": "NGR-09-015-023",
+                    "type": "CONTRACT_GRANT"
+                }
+            ],
+            "title": "Evaluation differences on Mars",
+            "stiType": "CONTRACTOR_REPORT",
+            "distribution": "PUBLIC",
+            "submittedDate": "2013-08-03T21:40:00.0000000+00:00",
+            "authorAffiliations": [
+                {
+                    "sequence": 0,
+                    "submissionId": 19670002919,
+                    "meta": {
+                        "author": {
+                            "name": "Pollack, J. B."
+                        },
+                        "organization": {
+                            "name": "Smithsonian Astrophysical Observatory",
+                            "location": "Cambridge, MA, United States"
+                        }
+                    },
+                    "id": "bc63fc33b0bb4f9f9eabba8757558c60"
+                },
+                {
+                    "sequence": 1,
+                    "submissionId": 19670002919,
+                    "meta": {
+                        "author": {
+                            "name": "Sagan, C."
+                        },
+                        "organization": {
+                            "name": "Smithsonian Astrophysical Observatory",
+                            "location": "Cambridge, MA, United States"
+                        }
+                    },
+                    "id": "4e395d3365194769870085edec3a467c"
+                }
+            ],
+            "stiTypeDetails": "Contractor Report (CR)",
+            "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+            "modified": "2013-04-09T00:00:00.0000000+00:00",
+            "id": 19670002919,
+            "created": "2013-08-03T21:40:00.0000000+00:00",
+            "center": {
+                "code": "CDMS",
+                "name": "Legacy CDMS",
+                "id": "092d6e0881874968859b972d39a888dc"
+            },
+            "onlyAbstract": false,
+            "sensitiveInformation": 2,
+            "abstract": "Space science research on elevation differences on Mars",
+            "isLessonsLearned": false,
+            "disseminated": "DOCUMENT_AND_METADATA",
+            "publications": [
+                {
+                    "submissionId": 19670002919,
+                    "id": "1ef847f423a341789626b76bfb79d82a",
+                    "publicationDate": "1966-10-10T00:00:00.0000000+00:00"
+                }
+            ],
+            "status": "CURATED",
+            "related": [],
+            "downloads": [
+                {
+                    "draft": false,
+                    "mimetype": "application/pdf",
+                    "name": "19670002919.pdf",
+                    "type": "STI",
+                    "links": {
+                        "original": "/api/citations/19670002919/downloads/19670002919.pdf",
+                        "pdf": "/api/citations/19670002919/downloads/19670002919.pdf",
+                        "fulltext": "/api/citations/19670002919/downloads/19670002919.txt"
+                    }
+                }
+            ],
+            "downloadsAvailable": true,
+            "index": "submissions-2022-09-30-06-07",
+            "summary": "."
+        },
+        {
+            "subjectCategories": [
+                "SPACE SCIENCES"
+            ],
+            "keywords": [
+                "MARS ATMOSPHERE",
+                "METEOR SHOWER",
+                "HELIOCENTRICITY"
+            ],
+            "distributionDate": "2019-05-29T00:00:00.0000000+00:00",
+            "fundingNumbers": [
+                {
+                    "number": "NSG 243-62",
+                    "type": "CONTRACT_GRANT"
+                }
+            ],
+            "title": "The Blue Haze of Mars",
+            "stiType": "CONTRACTOR_REPORT",
+            "distribution": "PUBLIC",
+            "submittedDate": "2013-08-03T05:20:00.0000000+00:00",
+            "authorAffiliations": [
+                {
+                    "sequence": 0,
+                    "submissionId": 19660024124,
+                    "meta": {
+                        "author": {
+                            "name": "Palm, A."
+                        },
+                        "organization": {
+                            "name": "California Univ.",
+                            "location": "Berkeley, CA, United States"
+                        }
+                    },
+                    "id": "5350923b7db840129ac546f3b5422196"
+                }
+            ],
+            "stiTypeDetails": "Contractor Report (CR)",
+            "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+            "modified": "2014-04-18T00:00:00.0000000+00:00",
+            "id": 19660024124,
+            "created": "2013-08-03T05:20:00.0000000+00:00",
+            "center": {
+                "code": "CDMS",
+                "name": "Legacy CDMS",
+                "id": "092d6e0881874968859b972d39a888dc"
+            },
+            "onlyAbstract": false,
+            "sensitiveInformation": 2,
+            "abstract": "Blue clearings of Mars atmosphere as function of number of meteor showers intersecting Mars orbit at intervals of heliocentric longitude",
+            "isLessonsLearned": false,
+            "disseminated": "DOCUMENT_AND_METADATA",
+            "publications": [
+                {
+                    "submissionId": 19660024124,
+                    "id": "0d5bf2dadab741fb86a8002e617d99c6",
+                    "publicationDate": "1964-12-07T00:00:00.0000000+00:00"
+                }
+            ],
+            "status": "CURATED",
+            "related": [],
+            "downloads": [
+                {
+                    "draft": false,
+                    "mimetype": "application/pdf",
+                    "name": "19660024124.pdf",
+                    "type": "STI",
+                    "links": {
+                        "original": "/api/citations/19660024124/downloads/19660024124.pdf",
+                        "pdf": "/api/citations/19660024124/downloads/19660024124.pdf",
+                        "fulltext": "/api/citations/19660024124/downloads/19660024124.txt"
+                    }
+                }
+            ],
+            "downloadsAvailable": true,
+            "index": "submissions-2022-09-30-06-07",
+            "summary": "Nasa's Jet Propulsion Laboratory (JPL) and the California Institute of Technology (Caltech) have announced the launch of a joint space research project."
+        }
+    ]
+}
