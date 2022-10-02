@@ -6,7 +6,6 @@ import json
 
 
 def get_summary_from_api(doc_text: str) -> str:
-  # API_KEY = "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"
     API_KEY = get_ml_model_key()
     if API_KEY:
         headers = {"Authorization": f"Bearer {API_KEY}"}
