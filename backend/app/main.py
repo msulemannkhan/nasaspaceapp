@@ -3,80 +3,48 @@ import json
 import requests
 from urllib.parse import urljoin
 from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
 from app.config import settings
 from app.nasa.nivl import nivl_search
 from app.nasa.nrts import nrts_search
 from app.ml.doc import get_summary_from_api
+from app.ml.img import apply_image_filter, get_filter_1_status
+from app.ml.img import images_style
+from app.filters import get_filter_details
+
 
 app = FastAPI()
-
+app.mount("/images", StaticFiles(directory='data/images'), name="images")
 
 @app.get("/")
 async def root():
     msg = "WELCOME to the largest annualspace & science hackathon in the world"
     return {"message": msg}
 
-@app.get("/nrts_get_summary")
-async def api_get_summary(
-        text_url: str = ''
-    ):
-    if not text_url:
-        return {'summary': "The winning numbers in Saturday evening's drawing of the California Lottery's \"Fantasy 5\" game were:"}
-    elif text_url == '/api/citations/19670030539/downloads/19670030539.txt':
-        return {'summary': "The winning numbers in Saturday evening's drawing of the California Lottery's \"Fantasy 5\" game were:"}
-    elif text_url == "/api/citations/19660021498/downloads/19660021498.txt":
-        return {'summary': "The following is a daily guide to the key stories, newspaper headlines and quotes from the news."}
-    elif text_url == "/api/citations/19670003694/downloads/19670003694.txt":
-        return {'summary': "The BBC News website has compiled a list of the top 10 most read stories of the past 24 hours."}
-    elif text_url == "/api/citations/19670002919/downloads/19670002919.txt":
-        return {'summary': ''}
-    elif text_url == "/api/citations/19660024124/downloads/19660024124.txt":
-        return {'summary':  "Nasa's Jet Propulsion Laboratory (JPL) and the California Institute of Technology (Caltech) have announced the launch of a joint space research project."}
+@app.get('/get_filters')
+async def api_get_img_filters():
+    filters_dic = get_filter_details()
+    filters_lst = []
+    for key in filters_dic:
+        filters_lst.append(filters_dic[key])
+    return filters_lst
+
+@app.get("/apply_img_filter")
+async def api_apply_img_filter_1(filter_name: str = 'oil_paint', image_url: str =''):
+    img_filters = get_filter_details()
+    default_image = "https://cdni.iconscout.com/illustration/premium/thumb/sorry-item-not-found-3328225-2809510.png"
+    if filter_name in img_filters and image_url:
+        try:
+            img_after_filter = img_filters[filter_name]["display_image"]
+            img_after_filter = images_style(style=filter_name, url=image_url)
+            return {"image_url": img_after_filter}
+        except Exception as e:
+            print(e)
+            return {"image_url": default_image}
     else:
-        SEARCH_URL = urljoin(settings.NRTS_API_URL, text_url)
-        txt_response_obj = requests.get(SEARCH_URL)
-        if txt_response_obj.status_code == 200:
-            return {'summary': get_summary_from_api(txt_response_obj.text)}
-        else: 
-            return {'summary': ''}
-
-@app.get("/nrts_search")
-async def api_nrts_search(
-        q: str = None,
-        author: str = None,
-        distribution: str = None,
-        organization: str = None,
-        keyword: str = None,
-        published_after: str = None,
-        sort: str=None, #asc, desc
-        subjectCategory: str = None
-    ):
-
-    if not (q and author and distribution and organization and key and published_after and sort and subjectCategory):
-        with open('app/default.json') as json_file:
-            return json.load(json_file)
-    search_params = {
-        "q": q,
-        "author": author,
-        "distribution": distribution,
-        "organization": organization,
-        "keyword": keyword,
-        "published_after": published_after,
-        "sort": sort,
-        "subjectCategory": subjectCategory
-    }
-
-    search_keys = list(search_params.keys())
-    keys = []
-    for key in search_keys:
-        if search_params[key] == None:
-            keys.append(key)
-    
-    for key in keys:
-        search_params.pop(key)
-    search_params["center"] = "CDMS"
-    return nrts_search(search_params)
-
+        # return image not found (default image)
+        return {"image_url": default_image}
+        
 @app.get("/nivl_search")
 async def api_nivl_search(
         q: str = None,
@@ -97,8 +65,6 @@ async def api_nivl_search(
     search_params = {
         "q": q,
         "center": center,
-        "description": description,
-        "description_508": description_508,
         "keywords": keywords,
         "location": location,
         "media_type": media_type,
