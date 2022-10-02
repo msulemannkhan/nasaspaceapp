@@ -14,6 +14,6 @@ def nivl_search(search_params: dict):
             params=search_params
         )
     search_results = json.loads(response.text)
-    limited_results = search_results["collection"]["items"][:10]
+    limited_results = search_results["collection"]["items"]
     search_results["collection"]["items"] = limited_results
     return search_results
