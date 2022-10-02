@@ -3,3 +3,5 @@ data
 /.DS_Store
 .DS_Store
 .env
+app/ml/style
+app/ml/khubaib_test.py
