@@ -14,7 +14,7 @@ services:
     volumes:
       - /${DATA_DIR}:/datastore
     ports:
-      - ${NASA_APP_PORT}:8000  # Expose the nodles backend
+      - ${NASA_APP_PORT}:8001  # Expose the nodles backend
     networks:
       - nasa_app_backend_network
 
