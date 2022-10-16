@@ -1,14 +1,14 @@
 # Apollo Search
 
-https://user-images.githubusercontent.com/22217732/196034246-fc7fb151-6e44-46fb-9258-8fb9705455c6.mp4
 
 
-https://user-images.githubusercontent.com/22217732/196034256-60c2cf1b-237d-40cf-925e-a21de7d44e1a.mp4
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22217732/196036569-94b230e3-88d5-4d3c-8eab-90a7550929cd.gif"/>
+</p>
 
-
-
-
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22217732/196037089-c6251b92-322c-4d2f-9b8b-55ff9e22aece.gif"/>
+</p>
 
 
 ## PROJECT SUMMARY
@@ -23,6 +23,7 @@ We have developed an Android application using Android SDK. The backend of the a
 
 
 We create innovative, interesting, artistic images using automated algorithms. The purpose of this project is to attract the user by creating different images which are derived from the selected image.
+
 
 
 
@@ -43,10 +44,6 @@ We have developed a mobile application using Android SDK. This mobile applicatio
 ### Python Backend:
 
 The backend of the application is developed using python, and Fastapi. It's deployed on AWS and it uses many other services where the machine learning models are deployed. We use Computer vision and deep learning algorithms to automatically generate the images. We also use the recent state-of-the-art algorithm DALL-E and Stable diffusion.
-
-
-
-[![Little red riding hood](http://i.imgur.com/7YTMFQp.png)](https://www.youtube.com/watch?v=S-Wtu3JqAZA&ab_channel=SulemanKhan "Little red riding hood - Click to Watch!")
 
 
 ### Code:
